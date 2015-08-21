@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@interface receiveView : UIViewController
+typedef void (^returnBlock)(NSString *titleText);
+
+@interface receiveView : UIViewController<returnTitle>
+
+@property (strong, nonatomic) IBOutlet UILabel *receiveTitle;
+@property (assign,nonatomic) NSString *labelStr;
+
+@property (nonatomic,copy) returnBlock returnblock;
+
+-(void)returnBlockValue:(returnBlock)block;
 
 @end

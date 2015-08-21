@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol returnTitle
+-(void)passTitle:(NSString *)titleText;
+@end
+
 @interface ViewController : UIViewController
 
+@property (nonatomic,assign) id<returnTitle>passValueDelegate;
 
 @end
 
