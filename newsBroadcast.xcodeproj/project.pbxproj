@@ -15,6 +15,7 @@
 		27B7E5FA1B86C5B700E0CA88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B7E5F91B86C5B700E0CA88 /* Images.xcassets */; };
 		27B7E5FD1B86C5B700E0CA88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B7E5FB1B86C5B700E0CA88 /* LaunchScreen.xib */; };
 		27B7E6091B86C5B700E0CA88 /* newsBroadcastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B7E6081B86C5B700E0CA88 /* newsBroadcastTests.m */; };
+		27B7E6141B86CEEB00E0CA88 /* receiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B7E6131B86CEEB00E0CA88 /* receiveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		27B7E6021B86C5B700E0CA88 /* newsBroadcastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newsBroadcastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B7E6071B86C5B700E0CA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27B7E6081B86C5B700E0CA88 /* newsBroadcastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newsBroadcastTests.m; sourceTree = "<group>"; };
+		27B7E6121B86CEEB00E0CA88 /* receiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = receiveView.h; sourceTree = "<group>"; };
+		27B7E6131B86CEEB00E0CA88 /* receiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = receiveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				27B7E5F31B86C5B700E0CA88 /* ViewController.h */,
 				27B7E5F41B86C5B700E0CA88 /* ViewController.m */,
 				27B7E5F61B86C5B700E0CA88 /* Main.storyboard */,
+				27B7E6121B86CEEB00E0CA88 /* receiveView.h */,
+				27B7E6131B86CEEB00E0CA88 /* receiveView.m */,
 				27B7E5F91B86C5B700E0CA88 /* Images.xcassets */,
 				27B7E5FB1B86C5B700E0CA88 /* LaunchScreen.xib */,
 				27B7E5F01B86C5B700E0CA88 /* newsBroadcast.xcdatamodeld */,
@@ -224,6 +229,7 @@
 			files = (
 				27B7E5EF1B86C5B700E0CA88 /* AppDelegate.m in Sources */,
 				27B7E5EC1B86C5B700E0CA88 /* main.m in Sources */,
+				27B7E6141B86CEEB00E0CA88 /* receiveView.m in Sources */,
 				27B7E5F51B86C5B700E0CA88 /* ViewController.m in Sources */,
 				27B7E5F21B86C5B700E0CA88 /* newsBroadcast.xcdatamodeld in Sources */,
 			);
